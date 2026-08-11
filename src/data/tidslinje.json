@@ -1,0 +1,269 @@
+{
+  "beskrivning": "Tidslinjekort för valpens första tre år. Redigera fritt — appen läser denna fil vid körning. 'vecka' är valpens ålder i veckor när kortet blir aktuellt. 'atgard' = true visar en kryssruta. Hälsoinnehåll är allmänna riktlinjer — rådgör alltid med veterinär.",
+  "kort": [
+    {
+      "id": "v8-hemkomst",
+      "vecka": 8,
+      "rubrik": "Välkommen hem!",
+      "brodtext": "Första dagarna handlar om trygghet. Låt valpen utforska i lugn takt, håll besöken få och sov nära valpen de första nätterna. Behåll fodret som uppfödaren använde — byten görs gradvis senare.",
+      "atgard": false,
+      "kategori": "vardag"
+    },
+    {
+      "id": "v8-forsakring",
+      "vecka": 8,
+      "rubrik": "Teckna försäkring",
+      "brodtext": "Se till att valpen är försäkrad från dag ett. Många uppfödare har en dold fel-försäkring, men valpen behöver en egen veterinärvårdsförsäkring. Kontrollera om uppfödarens bolag erbjuder fortsättning utan hälsodeklaration.",
+      "atgard": true,
+      "kategori": "praktiskt"
+    },
+    {
+      "id": "v8-chipregistrering",
+      "vecka": 8,
+      "rubrik": "Registrera ägarskap hos Jordbruksverket",
+      "brodtext": "Alla hundar i Sverige ska vara märkta och registrerade i Jordbruksverkets hundregister inom fyra veckor från att du tagit över hunden. Chipnumret hittar du i valpens dokument här i pärmen. Registreringen gör du på jordbruksverket.se.",
+      "atgard": true,
+      "kategori": "praktiskt"
+    },
+    {
+      "id": "v8-veterinar",
+      "vecka": 8,
+      "rubrik": "Hitta din veterinär",
+      "brodtext": "Ta reda på närmaste veterinärklinik och vart du vänder dig vid akuta ärenden på kvällar och helger. Spara numren i telefonen innan du behöver dem.",
+      "atgard": true,
+      "kategori": "halsa"
+    },
+    {
+      "id": "v9-ensamhet",
+      "vecka": 9,
+      "rubrik": "Börja ensamhetsträningen",
+      "brodtext": "Träna i mycket små steg: gå ut genom dörren några sekunder, kom tillbaka innan valpen hinner bli orolig, och öka långsamt. Målet de första månaderna är korta, lugna stunder — inte timmar.",
+      "atgard": false,
+      "kategori": "traning"
+    },
+    {
+      "id": "v9-avmaskning",
+      "vecka": 9,
+      "rubrik": "Avmaskning — vid behov",
+      "brodtext": "Uppfödaren har oftast avmaskat valpen före leverans (se dokumenten). I Sverige avmaskas vuxna hundar vanligen bara vid påvisad mask. Fråga din veterinär vad som gäller för din valp innan du avmaskar på egen hand.",
+      "atgard": false,
+      "kategori": "halsa"
+    },
+    {
+      "id": "v10-socialisering",
+      "vecka": 10,
+      "rubrik": "Socialiseringsfönstret är öppet",
+      "brodtext": "Fram till ungefär 12–14 veckor är valpen som mest mottaglig för nya intryck. Låt den i lugn takt möta olika människor, miljöer, ljud och underlag. Korta, positiva upplevelser räcker — trötta inte ut valpen.",
+      "atgard": false,
+      "kategori": "traning"
+    },
+    {
+      "id": "v10-bilvana",
+      "vecka": 10,
+      "rubrik": "Vänj valpen vid bilen",
+      "brodtext": "Korta, lugna bilturer som slutar med något trevligt bygger en positiv känsla för bilen. Valpen ska alltid åka säkrad i bur eller med sele godkänd för bil.",
+      "atgard": false,
+      "kategori": "vardag"
+    },
+    {
+      "id": "v12-vaccination1",
+      "vecka": 12,
+      "rubrik": "Vaccination vid 12 veckor",
+      "brodtext": "Grundvaccination mot valpsjuka, parvo och HCC ges ofta vid ungefär 7–8 och 12 veckors ålder — den första har uppfödaren vanligen ordnat (se vaccinationsintyget). Boka tid hos din veterinär, som lägger upp rätt schema för just din valp.",
+      "atgard": true,
+      "kategori": "halsa"
+    },
+    {
+      "id": "v12-valpkurs",
+      "vecka": 12,
+      "rubrik": "Anmäl er till valpkurs",
+      "brodtext": "Bra valpkurser blir snabbt fullbokade. Titta på din lokala brukshundklubb eller hundskola och boka en kurs som börjar när valpen är runt 12–16 veckor. Kursen är lika mycket för dig som för valpen.",
+      "atgard": true,
+      "kategori": "traning"
+    },
+    {
+      "id": "v13-hanteringstraning",
+      "vecka": 13,
+      "rubrik": "Träna hantering",
+      "brodtext": "Vänj valpen vid att bli klappad på tassar, öron och mun, att bli borstad och att bli lyft. Det gör framtida veterinärbesök, kloklippning och pälsvård mycket enklare. Korta pass med belöning fungerar bäst.",
+      "atgard": false,
+      "kategori": "traning"
+    },
+    {
+      "id": "v14-koppel",
+      "vecka": 14,
+      "rubrik": "Koppelpromenader i lagom dos",
+      "brodtext": "En vanlig tumregel är cirka fem minuters aktiv promenad per levnadsmånad, ett par gånger om dagen — resten av motionen sker genom lek och vardag. Valpens leder och tillväxtzoner är känsliga, så undvik långa rundor och hopp.",
+      "atgard": false,
+      "kategori": "vardag"
+    },
+    {
+      "id": "v16-tandomsning",
+      "vecka": 16,
+      "rubrik": "Tandömsningen börjar",
+      "brodtext": "Mellan ungefär 4 och 7 månader byter valpen till permanenta tänder. Det kliar och gnager — ge lämpliga tuggsaker och håll undan skor. Om en mjölktand sitter kvar när den permanenta kommit fram, visa det för veterinären.",
+      "atgard": false,
+      "kategori": "halsa"
+    },
+    {
+      "id": "v16-foder",
+      "vecka": 16,
+      "rubrik": "Foderbyte — alltid gradvis",
+      "brodtext": "Om du vill byta från uppfödarens foder, gör det över minst en vecka genom att blanda in det nya i ökande andel. Snabba byten ger ofta magbesvär. Se rasens foderschema här i pärmen som riktmärke.",
+      "atgard": false,
+      "kategori": "foder"
+    },
+    {
+      "id": "v18-inkallning",
+      "vecka": 18,
+      "rubrik": "Inkallning — viktigast av allt",
+      "brodtext": "En pålitlig inkallning kan rädda liv. Träna i steg: först inomhus, sedan i trädgård, sedan med störningar. Belöna alltid rikligt när valpen kommer — även när det tog tid.",
+      "atgard": false,
+      "kategori": "traning"
+    },
+    {
+      "id": "v20-tonaring",
+      "vecka": 20,
+      "rubrik": "Snart tonåring",
+      "brodtext": "Runt 5–6 månader börjar många valpar testa gränser och verkar 'glömma' sådant de kunde. Det är normalt. Sänk kraven, träna korta pass och ha tålamod — det går över.",
+      "atgard": false,
+      "kategori": "traning"
+    },
+    {
+      "id": "v22-vardagsvila",
+      "vecka": 22,
+      "rubrik": "Vila är också träning",
+      "brodtext": "Unghundar behöver mycket sömn — ofta 16–18 timmar per dygn. En valp som är 'busig' på kvällen är ofta övertrött. Skapa rutiner för vila på en egen lugn plats.",
+      "atgard": false,
+      "kategori": "vardag"
+    },
+    {
+      "id": "v26-halvar",
+      "vecka": 26,
+      "rubrik": "Ett halvår!",
+      "brodtext": "Valpen börjar likna en ung hund. Fortsätt med korta träningspass och lagom motion. Många byter nu gradvis från valpfoder till unghundsfoder — se rasens foderschema och fråga veterinären om du är osäker.",
+      "atgard": false,
+      "kategori": "foder"
+    },
+    {
+      "id": "v26-loptik",
+      "vecka": 26,
+      "rubrik": "Tikar: första löpet kan komma",
+      "brodtext": "Tikar löper första gången någon gång mellan ungefär 6 och 18 månader beroende på ras och individ. Läs på om vad ett löp innebär, håll tiken kopplad under löpet och notera datum — det är bra att känna till tikens cykel.",
+      "atgard": false,
+      "kategori": "halsa"
+    },
+    {
+      "id": "v30-unghundskurs",
+      "vecka": 30,
+      "rubrik": "Fortsättningskurs?",
+      "brodtext": "Efter valpkursen tappar många farten. En unghundskurs eller en hundsport — nosework, agility (först efter att kroppen vuxit klart), rallylydnad — håller igång både relation och hjärna.",
+      "atgard": false,
+      "kategori": "traning"
+    },
+    {
+      "id": "v34-vikt",
+      "vecka": 34,
+      "rubrik": "Håll koll på hullet",
+      "brodtext": "Du ska lätt kunna känna revbenen utan att de syns tydligt, och hunden ska ha en markerad midja. Övervikt under uppväxten belastar lederna. Logga vikten här i pärmen och jämför med rasens kurva.",
+      "atgard": false,
+      "kategori": "foder"
+    },
+    {
+      "id": "v38-tonarstopp",
+      "vecka": 38,
+      "rubrik": "Mitt i tonåren",
+      "brodtext": "Runt 8–10 månader är många unghundar som mest prövande. Fortsätt vara konsekvent och belöna det du vill se mer av. Undvik hårda tillrättavisningar — de skadar mer än de hjälper.",
+      "atgard": false,
+      "kategori": "traning"
+    },
+    {
+      "id": "v42-vaccinpaminnelse",
+      "vecka": 42,
+      "rubrik": "Planera årsvaccinationen",
+      "brodtext": "Ungefär ett år efter grundvaccinationen är det dags för en påfyllnadsdos. Titta i vaccinationsintyget när valpen vaccinerades senast och boka tid i god tid. Veterinären avgör exakt intervall.",
+      "atgard": true,
+      "kategori": "halsa"
+    },
+    {
+      "id": "v46-kastrering",
+      "vecka": 46,
+      "rubrik": "Kastrering — ett beslut utan brådska",
+      "brodtext": "Kastrering är i Sverige ett aktivt val, inte en självklarhet. Tidpunkt och lämplighet beror på ras, kön, hälsa och beteende — och för många raser rekommenderas att vänta tills hunden vuxit klart. Diskutera för- och nackdelar med din veterinär.",
+      "atgard": false,
+      "kategori": "halsa"
+    },
+    {
+      "id": "v52-ettar",
+      "vecka": 52,
+      "rubrik": "Grattis — ett år!",
+      "brodtext": "Från valp till ung hund. Små raser är i stort sett vuxna nu; stora raser växer ofta till 18–24 månader. Dags att se över foder (vuxenfoder), försäkringsnivå och vardagsrutiner.",
+      "atgard": false,
+      "kategori": "vardag"
+    },
+    {
+      "id": "v52-arsvaccination",
+      "vecka": 52,
+      "rubrik": "Årsvaccination",
+      "brodtext": "Boka påfyllnadsvaccinationen om det inte redan är gjort. Ta med vaccinationsintyget — det finns här i pärmen under Dokument.",
+      "atgard": true,
+      "kategori": "halsa"
+    },
+    {
+      "id": "m14-vuxenfoder",
+      "vecka": 60,
+      "rubrik": "Över till vuxenfoder",
+      "brodtext": "De flesta hundar går över till vuxenfoder mellan 12 och 18 månader — stora raser senare än små. Byt gradvis över en till två veckor. Fråga veterinären om du är osäker på tidpunkten för din ras.",
+      "atgard": false,
+      "kategori": "foder"
+    },
+    {
+      "id": "m16-aktivering",
+      "vecka": 68,
+      "rubrik": "Hitta er grej",
+      "brodtext": "Nu orkar hunden mer. Prova olika aktiviteter — spår, sök, kantarellplock, cykling, bad — och se vad ni båda tycker om. En hund som får utlopp för sin ras behov är en lugnare hund hemma.",
+      "atgard": false,
+      "kategori": "traning"
+    },
+    {
+      "id": "m18-vuxenkropp",
+      "vecka": 76,
+      "rubrik": "Kroppen växer klart",
+      "brodtext": "Vid 18 månader har de flesta raser slutat växa på höjden — stora raser fyller fortfarande ut. Nu kan ni gradvis öka motionen: längre rundor, löpning, mer krävande aktiviteter.",
+      "atgard": false,
+      "kategori": "vardag"
+    },
+    {
+      "id": "m21-tandvard",
+      "vecka": 88,
+      "rubrik": "Tandvård som rutin",
+      "brodtext": "Tandborstning några gånger i veckan är den bästa förebyggande tandvården. Har du inte kommit igång — börja i korta pass med hundtandkräm. Visa tänderna för veterinären vid årskontrollen.",
+      "atgard": false,
+      "kategori": "halsa"
+    },
+    {
+      "id": "m24-tvaar",
+      "vecka": 104,
+      "rubrik": "Två år — vuxen på riktigt",
+      "brodtext": "Nu är även de stora raserna färdigvuxna, och många hundar landar mentalt runt 2–3 år. Boka årets hälsokontroll och vaccination, och väg hunden — vuxenvikten är ett bra referensvärde framåt.",
+      "atgard": true,
+      "kategori": "halsa"
+    },
+    {
+      "id": "m30-hull",
+      "vecka": 130,
+      "rubrik": "Vanorna sätter sig",
+      "brodtext": "Mellan två och tre år smyger sig gärna några extrakilon på. Väg hunden ett par gånger om året, känn på revbenen och justera fodermängden efter aktivitet och säsong.",
+      "atgard": false,
+      "kategori": "foder"
+    },
+    {
+      "id": "m36-trear",
+      "vecka": 156,
+      "rubrik": "Tre år — pärmen är fullbordad",
+      "brodtext": "Valptiden är för länge sedan över och ni kan varandra utan och innan. Fortsätt med årliga hälsokontroller och vaccinationer enligt veterinärens rekommendation. Tack för att du gav den här hunden ett fint liv — och glöm inte att hälsa till uppfödaren!",
+      "atgard": false,
+      "kategori": "vardag"
+    }
+  ]
+}

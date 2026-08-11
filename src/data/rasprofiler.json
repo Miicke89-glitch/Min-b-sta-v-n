@@ -1,0 +1,235 @@
+{
+  "beskrivning": "Rasprofiler som seedas till tabellen rasprofil. Vikter i kg. Viktkurvan är ungefärliga spann för normal tillväxt — individuell variation är stor. Allt hälsoinnehåll är allmänna riktlinjer; rådgör med veterinär.",
+  "raser": [
+    {
+      "ras": "labrador retriever",
+      "vuxenvikt": { "tik": [25, 32], "hane": [29, 36] },
+      "viktkurva": [
+        { "vecka": 8, "min_kg": 6, "max_kg": 8.5 },
+        { "vecka": 12, "min_kg": 10, "max_kg": 13 },
+        { "vecka": 16, "min_kg": 14, "max_kg": 18 },
+        { "vecka": 26, "min_kg": 20, "max_kg": 26 },
+        { "vecka": 39, "min_kg": 24, "max_kg": 31 },
+        { "vecka": 52, "min_kg": 26, "max_kg": 34 },
+        { "vecka": 78, "min_kg": 27, "max_kg": 35 },
+        { "vecka": 104, "min_kg": 27, "max_kg": 36 }
+      ],
+      "motionsbehov": "Högt. Vuxen labrador behöver 1–2 timmar aktivitet om dagen, gärna med apportering, sim eller nosarbete. Som valp: korta pass, låt kroppen växa klart innan löpning och hopp.",
+      "palsvard": "Tät dubbelpäls som fäller mycket, särskilt vår och höst. Borsta 1–2 gånger i veckan, oftare vid fällning. Badas sällan.",
+      "vanliga_halsoproblem": "Höftleds- och armbågsdysplasi (föräldrarnas HD/ED-status finns i pärmen), övervikt, ögonsjukdomar (PRA), öroninflammationer. Håll hullet — labradorer äter gärna för mycket.",
+      "foderschema": [
+        { "alder": "8–12 veckor", "mal": "4 mål/dag", "riktmarke": "Valpfoder för stor ras, ca 250–350 g/dag fördelat på målen" },
+        { "alder": "3–6 månader", "mal": "3 mål/dag", "riktmarke": "Öka gradvis till ca 350–450 g/dag efter tillväxt och hull" },
+        { "alder": "6–12 månader", "mal": "2 mål/dag", "riktmarke": "Ca 300–400 g/dag, övergång mot unghundsfoder" },
+        { "alder": "Från 12–15 månader", "mal": "2 mål/dag", "riktmarke": "Vuxenfoder, mängd efter aktivitet — följ hullet, inte skopan" }
+      ]
+    },
+    {
+      "ras": "golden retriever",
+      "vuxenvikt": { "tik": [25, 32], "hane": [30, 34] },
+      "viktkurva": [
+        { "vecka": 8, "min_kg": 5.5, "max_kg": 8 },
+        { "vecka": 12, "min_kg": 9, "max_kg": 12.5 },
+        { "vecka": 16, "min_kg": 13, "max_kg": 17 },
+        { "vecka": 26, "min_kg": 19, "max_kg": 25 },
+        { "vecka": 39, "min_kg": 23, "max_kg": 30 },
+        { "vecka": 52, "min_kg": 25, "max_kg": 33 },
+        { "vecka": 78, "min_kg": 26, "max_kg": 34 },
+        { "vecka": 104, "min_kg": 26, "max_kg": 34 }
+      ],
+      "motionsbehov": "Högt. Minst en timme aktiv motion dagligen plus mental aktivering — apportering och sök passar rasen perfekt. Valpar motioneras i korta, lugna pass.",
+      "palsvard": "Halvlång päls med underull. Borsta ett par gånger i veckan, extra bakom öron, i armhålor och på byxor där tovor bildas. Fäller mycket vid pälsbyte.",
+      "vanliga_halsoproblem": "HD/ED, ögonsjukdomar, hudproblem och en förhöjd förekomst av vissa tumörsjukdomar hos äldre hundar. Regelbundna hälsokontroller rekommenderas.",
+      "foderschema": [
+        { "alder": "8–12 veckor", "mal": "4 mål/dag", "riktmarke": "Valpfoder för stor ras, ca 250–330 g/dag" },
+        { "alder": "3–6 månader", "mal": "3 mål/dag", "riktmarke": "Ca 330–430 g/dag efter tillväxt och hull" },
+        { "alder": "6–12 månader", "mal": "2 mål/dag", "riktmarke": "Ca 300–380 g/dag, övergång mot unghundsfoder" },
+        { "alder": "Från 12–15 månader", "mal": "2 mål/dag", "riktmarke": "Vuxenfoder, justera efter aktivitet och hull" }
+      ]
+    },
+    {
+      "ras": "tysk schäfer",
+      "vuxenvikt": { "tik": [22, 32], "hane": [30, 40] },
+      "viktkurva": [
+        { "vecka": 8, "min_kg": 6, "max_kg": 9 },
+        { "vecka": 12, "min_kg": 10, "max_kg": 14 },
+        { "vecka": 16, "min_kg": 15, "max_kg": 20 },
+        { "vecka": 26, "min_kg": 21, "max_kg": 28 },
+        { "vecka": 39, "min_kg": 26, "max_kg": 34 },
+        { "vecka": 52, "min_kg": 28, "max_kg": 38 },
+        { "vecka": 78, "min_kg": 29, "max_kg": 40 },
+        { "vecka": 104, "min_kg": 29, "max_kg": 40 }
+      ],
+      "motionsbehov": "Mycket högt — schäfern är en brukshund som behöver både fysiskt arbete och mentala uppgifter varje dag. Lydnad, spår, sök eller skydds-/bruksprov passar rasen. Understimulering ger problembeteenden.",
+      "palsvard": "Dubbelpäls som fäller året runt, kraftigt vid pälsbyte. Borsta flera gånger i veckan med carding- eller underullsborste.",
+      "vanliga_halsoproblem": "HD/ED (kontrollera föräldrarnas resultat i pärmen), ryggproblem, magomvridning hos vuxna hundar samt vissa immunrelaterade sjukdomar. Undvik intensiv foderjakt direkt efter mat.",
+      "foderschema": [
+        { "alder": "8–12 veckor", "mal": "4 mål/dag", "riktmarke": "Valpfoder för stor ras, ca 260–350 g/dag" },
+        { "alder": "3–6 månader", "mal": "3 mål/dag", "riktmarke": "Ca 350–470 g/dag, kontrollerad tillväxt är viktig för lederna" },
+        { "alder": "6–12 månader", "mal": "2 mål/dag", "riktmarke": "Ca 330–430 g/dag, unghundsfoder" },
+        { "alder": "Från 15 månader", "mal": "2 mål/dag", "riktmarke": "Vuxenfoder. Ge vila runt målen med tanke på risken för magomvridning" }
+      ]
+    },
+    {
+      "ras": "border collie",
+      "vuxenvikt": { "tik": [12, 19], "hane": [14, 20] },
+      "viktkurva": [
+        { "vecka": 8, "min_kg": 3, "max_kg": 5 },
+        { "vecka": 12, "min_kg": 5, "max_kg": 8 },
+        { "vecka": 16, "min_kg": 7, "max_kg": 10.5 },
+        { "vecka": 26, "min_kg": 10, "max_kg": 14.5 },
+        { "vecka": 39, "min_kg": 12, "max_kg": 17.5 },
+        { "vecka": 52, "min_kg": 12.5, "max_kg": 19 },
+        { "vecka": 78, "min_kg": 13, "max_kg": 20 },
+        { "vecka": 104, "min_kg": 13, "max_kg": 20 }
+      ],
+      "motionsbehov": "Extremt högt, framför allt mentalt. Border collien är en vallhund som behöver arbete: vallning, agility, rallylydnad, nosework eller avancerad trickträning. Fysisk motion räcker inte — hjärnan måste få jobba. Lär hunden att varva ner lika medvetet som du tränar den.",
+      "palsvard": "Medellång päls med underull. Borsta 1–2 gånger i veckan, mer vid fällning. Kontrollera tassar och päls efter träning i terräng.",
+      "vanliga_halsoproblem": "Ögonsjukdomen CEA (föräldrar DNA-testas ofta — se pärmen), epilepsi förekommer, HD, samt stressrelaterade beteenden vid understimulering eller överstimulering.",
+      "foderschema": [
+        { "alder": "8–12 veckor", "mal": "4 mål/dag", "riktmarke": "Valpfoder medelstor ras, ca 150–220 g/dag" },
+        { "alder": "3–6 månader", "mal": "3 mål/dag", "riktmarke": "Ca 200–280 g/dag efter tillväxt" },
+        { "alder": "6–12 månader", "mal": "2 mål/dag", "riktmarke": "Ca 180–250 g/dag" },
+        { "alder": "Från 12 månader", "mal": "2 mål/dag", "riktmarke": "Vuxen- eller aktivfoder beroende på arbetsnivå" }
+      ]
+    },
+    {
+      "ras": "staffordshire bullterrier",
+      "vuxenvikt": { "tik": [11, 15.4], "hane": [13, 17] },
+      "viktkurva": [
+        { "vecka": 8, "min_kg": 3, "max_kg": 5 },
+        { "vecka": 12, "min_kg": 5, "max_kg": 7.5 },
+        { "vecka": 16, "min_kg": 6.5, "max_kg": 9.5 },
+        { "vecka": 26, "min_kg": 9, "max_kg": 13 },
+        { "vecka": 39, "min_kg": 10.5, "max_kg": 15.5 },
+        { "vecka": 52, "min_kg": 11, "max_kg": 16.5 },
+        { "vecka": 78, "min_kg": 11, "max_kg": 17 },
+        { "vecka": 104, "min_kg": 11, "max_kg": 17 }
+      ],
+      "motionsbehov": "Medelhögt till högt. En timmes daglig motion plus lek och tuggaktivering. Staffen älskar dragkamp och styrkelek — bra kanaler för dess energi. Känslig för värme: undvik hård motion varma dagar.",
+      "palsvard": "Kort, slät päls — mycket lättskött. Borsta med gummihandske en gång i veckan. Kontrollera hudveck och klor regelbundet.",
+      "vanliga_halsoproblem": "Ärftliga sjukdomarna L2-HGA och HC (DNA-test av föräldrarna — se pärmen), hudallergier, knäproblem (patellaluxation). Värmekänslighet på grund av kort nos.",
+      "foderschema": [
+        { "alder": "8–12 veckor", "mal": "4 mål/dag", "riktmarke": "Valpfoder medelstor ras, ca 140–200 g/dag" },
+        { "alder": "3–6 månader", "mal": "3 mål/dag", "riktmarke": "Ca 180–250 g/dag" },
+        { "alder": "6–12 månader", "mal": "2 mål/dag", "riktmarke": "Ca 160–220 g/dag" },
+        { "alder": "Från 12 månader", "mal": "2 mål/dag", "riktmarke": "Vuxenfoder — rasen lägger lätt på sig, håll koll på hullet" }
+      ]
+    },
+    {
+      "ras": "jack russell terrier",
+      "vuxenvikt": { "tik": [5, 7], "hane": [5.5, 8] },
+      "viktkurva": [
+        { "vecka": 8, "min_kg": 1.4, "max_kg": 2.4 },
+        { "vecka": 12, "min_kg": 2.2, "max_kg": 3.5 },
+        { "vecka": 16, "min_kg": 3, "max_kg": 4.5 },
+        { "vecka": 26, "min_kg": 4, "max_kg": 6 },
+        { "vecka": 39, "min_kg": 4.7, "max_kg": 7 },
+        { "vecka": 52, "min_kg": 5, "max_kg": 7.5 },
+        { "vecka": 78, "min_kg": 5, "max_kg": 8 },
+        { "vecka": 104, "min_kg": 5, "max_kg": 8 }
+      ],
+      "motionsbehov": "Högt för sin storlek — en liten hund med stor motor. Behöver dagliga promenader plus jakt- och nosinriktad aktivering. Stark jaktinstinkt: träna inkallning extra noga och ha koll vid skogspromenader.",
+      "palsvard": "Slät- eller strävhårig. Släthår borstas veckovis; strävhår trimmas (handplockas) några gånger per år.",
+      "vanliga_halsoproblem": "Knäproblem (patellaluxation), ögonsjukdomar (bl.a. linsluxation — DNA-test förekommer), tandproblem. Kontrollera tänderna regelbundet.",
+      "foderschema": [
+        { "alder": "8–12 veckor", "mal": "4 mål/dag", "riktmarke": "Valpfoder liten ras, ca 70–110 g/dag" },
+        { "alder": "3–6 månader", "mal": "3 mål/dag", "riktmarke": "Ca 90–130 g/dag" },
+        { "alder": "6–10 månader", "mal": "2–3 mål/dag", "riktmarke": "Ca 80–120 g/dag" },
+        { "alder": "Från 10–12 månader", "mal": "2 mål/dag", "riktmarke": "Vuxenfoder liten ras, mängd efter aktivitet" }
+      ]
+    },
+    {
+      "ras": "chihuahua",
+      "vuxenvikt": { "tik": [1.5, 3], "hane": [1.5, 3] },
+      "viktkurva": [
+        { "vecka": 8, "min_kg": 0.4, "max_kg": 0.9 },
+        { "vecka": 12, "min_kg": 0.7, "max_kg": 1.3 },
+        { "vecka": 16, "min_kg": 0.9, "max_kg": 1.7 },
+        { "vecka": 26, "min_kg": 1.2, "max_kg": 2.3 },
+        { "vecka": 39, "min_kg": 1.4, "max_kg": 2.7 },
+        { "vecka": 52, "min_kg": 1.5, "max_kg": 3 },
+        { "vecka": 78, "min_kg": 1.5, "max_kg": 3 },
+        { "vecka": 104, "min_kg": 1.5, "max_kg": 3 }
+      ],
+      "motionsbehov": "Måttligt — men underskatta inte rasen. Dagliga promenader och aktivering behövs, i lagom längd. Skydda mot kyla med täcke på vintern och bär inte hunden överallt — den mår bra av att gå själv.",
+      "palsvard": "Kort- eller långhårig. Korthår borstas veckovis; långhår några gånger i veckan. Klipp klor ofta — små hundar sliter dem inte själva.",
+      "vanliga_halsoproblem": "Patellaluxation, tandproblem (trångt i munnen — borsta tänderna!), öppen fontanell hos vissa individer, luftstrupskollaps. Använd sele i stället för halsband. Känslig för lågt blodsocker som liten valp — täta mål är viktiga.",
+      "foderschema": [
+        { "alder": "8–12 veckor", "mal": "4–5 små mål/dag", "riktmarke": "Valpfoder minihundras, ca 30–50 g/dag. Täta mål motverkar lågt blodsocker" },
+        { "alder": "3–6 månader", "mal": "3–4 mål/dag", "riktmarke": "Ca 40–60 g/dag" },
+        { "alder": "6–10 månader", "mal": "3 mål/dag", "riktmarke": "Ca 35–55 g/dag" },
+        { "alder": "Från 10–12 månader", "mal": "2–3 mål/dag", "riktmarke": "Vuxenfoder minihundras — små marginaler, väg fodret" }
+      ]
+    },
+    {
+      "ras": "dvärgpudel",
+      "vuxenvikt": { "tik": [4, 6.5], "hane": [4.5, 7] },
+      "viktkurva": [
+        { "vecka": 8, "min_kg": 1, "max_kg": 1.8 },
+        { "vecka": 12, "min_kg": 1.7, "max_kg": 2.8 },
+        { "vecka": 16, "min_kg": 2.3, "max_kg": 3.7 },
+        { "vecka": 26, "min_kg": 3.2, "max_kg": 5 },
+        { "vecka": 39, "min_kg": 3.8, "max_kg": 6 },
+        { "vecka": 52, "min_kg": 4, "max_kg": 6.7 },
+        { "vecka": 78, "min_kg": 4, "max_kg": 7 },
+        { "vecka": 104, "min_kg": 4, "max_kg": 7 }
+      ],
+      "motionsbehov": "Medelhögt — pudeln är smart och atletisk. Dagliga promenader plus trickträning, nosework eller agility. Rasen älskar att lära sig och behöver mental stimulans för att inte hitta på egna projekt.",
+      "palsvard": "Krävande. Pälsen fäller inte men växer ständigt och tovar sig utan skötsel. Borsta/kamma flera gånger i veckan och klipp hos frisör (eller själv) ungefär var 6–8 vecka. Vänj valpen tidigt vid borste och klippmaskin.",
+      "vanliga_halsoproblem": "Patellaluxation, ögonsjukdomen prcd-PRA (DNA-test av föräldrarna — se pärmen), tandproblem, öroninflammationer (hårväxt i hörselgången).",
+      "foderschema": [
+        { "alder": "8–12 veckor", "mal": "4 mål/dag", "riktmarke": "Valpfoder liten ras, ca 60–100 g/dag" },
+        { "alder": "3–6 månader", "mal": "3 mål/dag", "riktmarke": "Ca 80–120 g/dag" },
+        { "alder": "6–10 månader", "mal": "2–3 mål/dag", "riktmarke": "Ca 70–110 g/dag" },
+        { "alder": "Från 10–12 månader", "mal": "2 mål/dag", "riktmarke": "Vuxenfoder liten ras" }
+      ]
+    },
+    {
+      "ras": "cavalier king charles spaniel",
+      "vuxenvikt": { "tik": [5.5, 8], "hane": [5.5, 8] },
+      "viktkurva": [
+        { "vecka": 8, "min_kg": 1.5, "max_kg": 2.5 },
+        { "vecka": 12, "min_kg": 2.4, "max_kg": 3.7 },
+        { "vecka": 16, "min_kg": 3.2, "max_kg": 4.8 },
+        { "vecka": 26, "min_kg": 4.3, "max_kg": 6.3 },
+        { "vecka": 39, "min_kg": 5, "max_kg": 7.3 },
+        { "vecka": 52, "min_kg": 5.3, "max_kg": 8 },
+        { "vecka": 78, "min_kg": 5.5, "max_kg": 8 },
+        { "vecka": 104, "min_kg": 5.5, "max_kg": 8 }
+      ],
+      "motionsbehov": "Måttligt. Trivs med ett par promenader om dagen och anpassar sig gärna efter familjens tempo — men mår bäst med regelbunden motion och lek. Undvik hård ansträngning i värme.",
+      "palsvard": "Silkig halvlång päls. Borsta 2–3 gånger i veckan, extra bakom öron och i armhålor. Håll öronen rena och torra — hängande öron ger sämre ventilation.",
+      "vanliga_halsoproblem": "Hjärtproblem (mitralisklaffsjukdom, MMVD) är rasens stora hälsofråga — avelshundar hjärttestas, se föräldrarnas resultat i pärmen. Även syringomyeli (SM), ögon- och öronproblem förekommer. Regelbunden hjärtavlyssning hos veterinär rekommenderas.",
+      "foderschema": [
+        { "alder": "8–12 veckor", "mal": "4 mål/dag", "riktmarke": "Valpfoder liten ras, ca 70–110 g/dag" },
+        { "alder": "3–6 månader", "mal": "3 mål/dag", "riktmarke": "Ca 90–130 g/dag" },
+        { "alder": "6–10 månader", "mal": "2–3 mål/dag", "riktmarke": "Ca 80–120 g/dag" },
+        { "alder": "Från 10–12 månader", "mal": "2 mål/dag", "riktmarke": "Vuxenfoder liten ras — rasen blir lätt rund, håll hullet" }
+      ]
+    },
+    {
+      "ras": "berner sennenhund",
+      "vuxenvikt": { "tik": [36, 48], "hane": [39, 50] },
+      "viktkurva": [
+        { "vecka": 8, "min_kg": 6, "max_kg": 9 },
+        { "vecka": 12, "min_kg": 11, "max_kg": 15 },
+        { "vecka": 16, "min_kg": 16, "max_kg": 21 },
+        { "vecka": 26, "min_kg": 24, "max_kg": 32 },
+        { "vecka": 39, "min_kg": 30, "max_kg": 40 },
+        { "vecka": 52, "min_kg": 34, "max_kg": 45 },
+        { "vecka": 78, "min_kg": 36, "max_kg": 49 },
+        { "vecka": 104, "min_kg": 37, "max_kg": 50 }
+      ],
+      "motionsbehov": "Måttligt men regelbundet. Lugna promenader och gärna dragarbete eller sök när hunden är vuxen. Mycket viktigt att inte överbelasta valpen — rasen växer länge och lederna är känsliga upp till ca 18–24 månader.",
+      "palsvard": "Lång, tjock päls med riklig underull. Borsta 2–3 gånger i veckan, dagligen vid fällning. Trivs illa i stark värme — anpassa motion efter temperatur.",
+      "vanliga_halsoproblem": "HD/ED (se föräldrarnas resultat i pärmen), förhöjd förekomst av tumörsjukdomen histiocytärt sarkom, magomvridning samt njursjukdom hos vissa linjer. Kontrollerad, långsam tillväxt och gott hull utan övervikt är extra viktigt.",
+      "foderschema": [
+        { "alder": "8–12 veckor", "mal": "4 mål/dag", "riktmarke": "Valpfoder jätteras, ca 300–400 g/dag — kontrollerad energinivå för långsam tillväxt" },
+        { "alder": "3–6 månader", "mal": "3 mål/dag", "riktmarke": "Ca 400–550 g/dag efter tillväxtkurva och hull" },
+        { "alder": "6–15 månader", "mal": "2–3 mål/dag", "riktmarke": "Ca 400–520 g/dag, unghundsfoder för stor ras" },
+        { "alder": "Från 18 månader", "mal": "2 mål/dag", "riktmarke": "Vuxenfoder stor ras. Vila runt målen med tanke på risken för magomvridning" }
+      ]
+    }
+  ]
+}

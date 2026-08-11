@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@theme {
+  /* Varm, personlig palett — som en pärm i kraftpapper, inte en journal */
+  --color-papper: #faf5ec;
+  --color-papper-djup: #f3ecdd;
+  --color-kort: #fffdf8;
+  --color-blck: #3b2f26;
+  --color-blck-mjuk: #6b5d50;
+  --color-tass: #b05f3c;
+  --color-tass-mork: #94492b;
+  --color-tass-ljus: #f5e3d8;
+  --color-ang: #6f7d5c;
+  --color-ang-ljus: #e8ecdd;
+  --color-himmel: #5c7b8a;
+  --color-himmel-ljus: #dfe9ed;
+  --color-linje: #e5dcc9;
+
+  --font-display: Georgia, "Times New Roman", "Liberation Serif", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  --radius-mjuk: 1rem;
+  --shadow-kort: 0 1px 2px rgba(59, 47, 38, 0.06),
+    0 4px 16px rgba(59, 47, 38, 0.07);
+}
+
+html {
+  background: var(--color-papper);
+  color: var(--color-blck);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+.rubrik {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+/* Tydliga fokusmarkeringar för tillgänglighet */
+:focus-visible {
+  outline: 3px solid var(--color-tass);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Återanvändbara byggstenar */
+.kort {
+  background: var(--color-kort);
+  border: 1px solid var(--color-linje);
+  border-radius: var(--radius-mjuk);
+  box-shadow: var(--shadow-kort);
+}
+
+.knapp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: var(--color-tass);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 0.7rem 1.4rem;
+  min-height: 44px;
+  transition: background 0.15s ease;
+}
+.knapp:hover {
+  background: var(--color-tass-mork);
+}
+.knapp:disabled {
+  opacity: 0.5;
+}
+
+.knapp-sekundar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: transparent;
+  color: var(--color-tass-mork);
+  font-weight: 600;
+  border: 1.5px solid var(--color-tass);
+  border-radius: 999px;
+  padding: 0.65rem 1.3rem;
+  min-height: 44px;
+  transition: background 0.15s ease;
+}
+.knapp-sekundar:hover {
+  background: var(--color-tass-ljus);
+}
+
+.falt {
+  width: 100%;
+  background: #fff;
+  border: 1.5px solid var(--color-linje);
+  border-radius: 0.75rem;
+  padding: 0.65rem 0.9rem;
+  min-height: 44px;
+  color: var(--color-blck);
+}
+.falt::placeholder {
+  color: #a3968a;
+}
+
+.etikett {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-blck-mjuk);
+  margin-bottom: 0.3rem;
+}
