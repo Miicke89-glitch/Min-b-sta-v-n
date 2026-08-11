@@ -24,9 +24,9 @@ export default async function ValpLayout({
   if (!valp) notFound();
 
   return (
-    <div className="min-h-dvh pb-24">
+    <div className="min-h-dvh pb-24 md:pb-10 md:pl-60">
       {children}
-      <ValpMeny valpId={id} />
+      <ValpMeny valpId={id} valpNamn={valp.namn} />
     </div>
   );
 }

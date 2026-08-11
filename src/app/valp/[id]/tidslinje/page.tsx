@@ -132,7 +132,7 @@ export default async function TidslinjeSida({
     kortId.startsWith("rad-") ? "din uppfödare" : undefined;
 
   return (
-    <main className="mx-auto w-full max-w-xl px-5 py-8">
+    <main className="mx-auto w-full max-w-xl px-5 py-8 md:max-w-2xl md:py-12">
       <h1 className="text-3xl">Tidslinje</h1>
       <p className="mt-1 text-blck-mjuk">
         {valp.namn} är {alderText(valp.kull.fodelsedatum)}. Här är vad som

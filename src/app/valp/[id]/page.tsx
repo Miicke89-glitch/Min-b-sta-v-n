@@ -32,7 +32,7 @@ export default async function MinValpSida({
     .maybeSingle<Rasprofil>();
 
   return (
-    <main className="mx-auto w-full max-w-xl px-5 py-8">
+    <main className="mx-auto w-full max-w-xl px-5 py-8 md:max-w-3xl md:py-12">
       <header className="text-center">
         {valp.bild_url ? (
           // eslint-disable-next-line @next/next/no-img-element
@@ -57,7 +57,8 @@ export default async function MinValpSida({
         </p>
       </header>
 
-      <section className="kort mt-8 p-5">
+      <div className="mt-8 grid gap-4 md:grid-cols-2 md:items-start">
+      <section className="kort p-5">
         <h2 className="text-lg">Från {kennel.namn}</h2>
         {kennel.ort && <p className="text-sm text-blck-mjuk">{kennel.ort}</p>}
         {kennel.om_text && (
@@ -67,7 +68,7 @@ export default async function MinValpSida({
         )}
       </section>
 
-      <section className="kort mt-4 p-5">
+      <section className="kort p-5">
         <h2 className="text-lg">Föräldrar</h2>
         <dl className="mt-2 flex flex-col gap-3 text-sm">
           {kull.mor_namn && (
@@ -94,7 +95,7 @@ export default async function MinValpSida({
       </section>
 
       {(valp.chipnummer || valp.reg_nummer) && (
-        <section className="kort mt-4 p-5">
+        <section className="kort p-5 md:col-span-2">
           <h2 className="text-lg">Identitet</h2>
           <dl className="mt-2 grid grid-cols-1 gap-2 text-sm sm:grid-cols-2">
             {valp.chipnummer && (
@@ -120,7 +121,7 @@ export default async function MinValpSida({
       )}
 
       {rasprofil && (
-        <section className="kort mt-4 p-5">
+        <section className="kort p-5 md:col-span-2">
           <h2 className="text-lg capitalize">Om rasen {kull.ras}</h2>
           <dl className="mt-2 flex flex-col gap-3 text-sm">
             <div>
@@ -161,6 +162,8 @@ export default async function MinValpSida({
           </p>
         </section>
       )}
+
+      </div>
 
       <form action={loggaUt} className="mt-8 text-center">
         <button

@@ -48,7 +48,7 @@ export default async function KullenSida({
   };
 
   return (
-    <main className="mx-auto w-full max-w-xl px-5 py-8">
+    <main className="mx-auto w-full max-w-xl px-5 py-8 md:max-w-3xl md:py-12">
       <h1 className="text-3xl">Kullen</h1>
       <p className="mt-1 text-blck-mjuk">
         {valp.namn}s syskon — och en gemensam tråd för hela kullen, uppfödaren
@@ -59,7 +59,7 @@ export default async function KullenSida({
         <h2 id="rubrik-syskon" className="sr-only">
           Valparna i kullen
         </h2>
-        <ul className="grid grid-cols-2 gap-3">
+        <ul className="grid grid-cols-2 gap-3 md:grid-cols-4">
           {(kullkamrater as Pick<Valp, "id" | "namn" | "kon" | "farg" | "agare_user_id">[] | null)?.map(
             (kamrat) => (
               <li

@@ -38,7 +38,7 @@ export default async function ViktSida({
   const vuxenvikt = rasprofil?.vuxenvikt_json?.[valp.kon];
 
   return (
-    <main className="mx-auto w-full max-w-xl px-5 py-8">
+    <main className="mx-auto w-full max-w-xl px-5 py-8 md:max-w-3xl md:py-12">
       <h1 className="text-3xl">Vikt</h1>
       <p className="mt-1 text-blck-mjuk">
         Logga {valp.namn}s vikt då och då — kurvan visar rasens normalspann som

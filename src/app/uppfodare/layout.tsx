@@ -18,7 +18,7 @@ export default async function UppfodareLayout({
   return (
     <div className="min-h-dvh">
       <header className="glasmeny sticky top-0 z-10 border-b border-linje">
-        <div className="mx-auto flex w-full max-w-3xl items-center justify-between px-5 py-3">
+        <div className="mx-auto flex w-full max-w-4xl items-center justify-between px-5 py-3">
           <Link
             href="/uppfodare"
             className="rubrik flex items-center gap-2.5 text-lg"
@@ -38,7 +38,7 @@ export default async function UppfodareLayout({
           </form>
         </div>
       </header>
-      <main className="mx-auto w-full max-w-3xl px-5 py-8">{children}</main>
+      <main className="mx-auto w-full max-w-4xl px-5 py-8 md:py-10">{children}</main>
     </div>
   );
 }

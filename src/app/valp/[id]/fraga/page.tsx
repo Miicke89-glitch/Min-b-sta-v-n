@@ -31,7 +31,7 @@ export default async function FragaSida({
     .order("skapad_at", { ascending: false });
 
   return (
-    <main className="mx-auto w-full max-w-xl px-5 py-8">
+    <main className="mx-auto w-full max-w-xl px-5 py-8 md:max-w-2xl md:py-12">
       <h1 className="text-3xl">Fråga uppfödaren</h1>
       <p className="mt-1 text-blck-mjuk">
         {valp.kull.kennel.namn} känner {valp.namn} och kullen bättre än någon
