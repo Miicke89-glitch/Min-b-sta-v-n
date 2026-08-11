@@ -1,6 +1,7 @@
 import { skapaServerKlient } from "@/lib/supabase/server";
 import { laggTillValp } from "@/lib/actions";
 import KopieraLank from "@/components/kopiera-lank";
+import Ikon from "@/components/ikon";
 import type { Valp } from "@/lib/typer";
 
 export const metadata = { title: "Valplista — Din bästa vän" };
@@ -22,9 +23,9 @@ export default async function ValplistaSida({
     <div className="flex flex-col gap-6">
       {!valpar?.length ? (
         <div className="kort p-6 text-center text-blck-mjuk">
-          <p aria-hidden="true" className="mb-2 text-3xl">
-            🐶
-          </p>
+          <span className="symbol mx-auto mb-3 h-12 w-12">
+            <Ikon namn="tass" storlek={22} />
+          </span>
           <p>Inga valpar ännu — lägg till dem nedan.</p>
         </div>
       ) : (

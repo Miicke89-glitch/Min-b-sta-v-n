@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { skapaServerKlient } from "@/lib/supabase/server";
+import Ikon from "@/components/ikon";
 
 export default async function StartSida() {
   const supabase = await skapaServerKlient();
@@ -29,9 +30,9 @@ export default async function StartSida() {
     // Inloggad utan koppling än
     return (
       <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col justify-center gap-6 px-5 py-10 text-center">
-        <p aria-hidden="true" className="text-5xl">
-          🐾
-        </p>
+        <span className="symbol mx-auto h-16 w-16">
+          <Ikon namn="tass" storlek={30} />
+        </span>
         <h1 className="text-3xl">Nästan framme!</h1>
         <p className="text-blck-mjuk">
           Du är inloggad, men ingen valp är kopplad till dig än. Har du fått en
@@ -54,9 +55,9 @@ export default async function StartSida() {
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col justify-center px-5 py-10">
       <div className="text-center">
-        <p aria-hidden="true" className="mb-3 text-6xl">
-          🐾
-        </p>
+        <span className="symbol mx-auto mb-5 h-20 w-20">
+          <Ikon namn="tass" storlek={38} />
+        </span>
         <h1 className="text-4xl">Din bästa vän</h1>
         <p className="mt-3 text-lg text-blck-mjuk">
           Den digitala valppärmen — allt om din valp, samlat med omsorg av din

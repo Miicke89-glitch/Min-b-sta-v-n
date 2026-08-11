@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { skapaServerKlient } from "@/lib/supabase/server";
 import { alderText } from "@/lib/alder";
 import type { Valp, Kull } from "@/lib/typer";
+import Ikon from "@/components/ikon";
 
 export const metadata = { title: "Mina valpar — Din bästa vän" };
 
@@ -28,8 +29,8 @@ export default async function MinaValparSida() {
               href={`/valp/${valp.id}`}
               className="kort flex items-center gap-4 p-4"
             >
-              <span aria-hidden="true" className="text-3xl">
-                🐶
+              <span className="symbol h-12 w-12 shrink-0">
+                <Ikon namn="tass" storlek={22} />
               </span>
               <span>
                 <span className="block text-lg font-semibold">{valp.namn}</span>

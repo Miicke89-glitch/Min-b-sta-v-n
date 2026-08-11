@@ -2,6 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { skapaServerKlient } from "@/lib/supabase/server";
 import { loggaUt } from "@/lib/actions";
+import Ikon from "@/components/ikon";
 
 export default async function UppfodareLayout({
   children,
@@ -16,10 +17,16 @@ export default async function UppfodareLayout({
 
   return (
     <div className="min-h-dvh">
-      <header className="border-b border-linje bg-kort">
+      <header className="glasmeny sticky top-0 z-10 border-b border-linje">
         <div className="mx-auto flex w-full max-w-3xl items-center justify-between px-5 py-3">
-          <Link href="/uppfodare" className="rubrik text-lg font-semibold">
-            🐾 Din bästa vän
+          <Link
+            href="/uppfodare"
+            className="rubrik flex items-center gap-2.5 text-lg"
+          >
+            <span className="symbol h-9 w-9">
+              <Ikon namn="tass" storlek={19} />
+            </span>
+            Din bästa vän
           </Link>
           <form action={loggaUt}>
             <button

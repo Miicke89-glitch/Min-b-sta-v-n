@@ -3,6 +3,7 @@ import { skapaServerKlient } from "@/lib/supabase/server";
 import { alderText, formateraDatum } from "@/lib/alder";
 import { loggaUt } from "@/lib/actions";
 import type { Kennel, Kull, Rasprofil, Valp } from "@/lib/typer";
+import Ikon from "@/components/ikon";
 
 export const metadata = { title: "Min valp — Din bästa vän" };
 
@@ -41,9 +42,9 @@ export default async function MinValpSida({
             className="mx-auto h-32 w-32 rounded-full border-4 border-kort object-cover shadow-md"
           />
         ) : (
-          <p aria-hidden="true" className="text-7xl">
-            🐶
-          </p>
+          <span className="symbol mx-auto h-28 w-28 shadow-md">
+            <Ikon namn="tass" storlek={52} />
+          </span>
         )}
         <h1 className="mt-3 text-4xl">{valp.namn}</h1>
         <p className="mt-1 text-lg text-blck-mjuk">

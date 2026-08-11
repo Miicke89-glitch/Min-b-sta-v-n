@@ -2,6 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { skapaServerKlient } from "@/lib/supabase/server";
 import { formateraDatum } from "@/lib/alder";
+import Ikon from "@/components/ikon";
 import type { Kull } from "@/lib/typer";
 
 export const metadata = { title: "Uppfödare — Din bästa vän" };
@@ -54,9 +55,9 @@ export default async function UppfodareStart() {
         </div>
         {!kullar?.length ? (
           <div className="kort p-6 text-center text-blck-mjuk">
-            <p aria-hidden="true" className="mb-2 text-3xl">
-              🐕
-            </p>
+            <span className="symbol mx-auto mb-3 h-12 w-12">
+              <Ikon namn="tass" storlek={22} />
+            </span>
             <p>
               Ingen kull ännu. Lägg upp din första kull så bygger vi pärmen
               tillsammans.

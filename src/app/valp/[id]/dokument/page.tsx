@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { skapaServerKlient } from "@/lib/supabase/server";
 import { dokumentEtikett, type Dokument, type Valp } from "@/lib/typer";
 import SwRegistrering from "@/components/sw-registrering";
+import Ikon from "@/components/ikon";
 
 export const metadata = { title: "Dokument — Din bästa vän" };
 
@@ -47,9 +48,9 @@ export default async function DokumentSida({
 
       {!medLankar.length ? (
         <div className="kort mt-6 p-6 text-center text-blck-mjuk">
-          <p aria-hidden="true" className="mb-2 text-3xl">
-            📄
-          </p>
+          <span className="symbol mx-auto mb-3 h-12 w-12">
+            <Ikon namn="dokument" storlek={22} />
+          </span>
           <p>Inga dokument uppladdade ännu.</p>
         </div>
       ) : (
@@ -63,8 +64,8 @@ export default async function DokumentSida({
                   rel="noopener noreferrer"
                   className="kort flex items-center gap-3 p-4"
                 >
-                  <span aria-hidden="true" className="text-2xl">
-                    📄
+                  <span className="symbol h-11 w-11 shrink-0">
+                    <Ikon namn="dokument" storlek={20} />
                   </span>
                   <span className="min-w-0">
                     <span className="block truncate font-semibold">

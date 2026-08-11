@@ -1,6 +1,7 @@
 import { skapaServerKlient } from "@/lib/supabase/server";
 import { svaraFraga } from "@/lib/actions";
 import { formateraTidpunkt } from "@/lib/alder";
+import Ikon from "@/components/ikon";
 import type { Fraga } from "@/lib/typer";
 
 export const metadata = { title: "Frågor — Din bästa vän" };
@@ -27,9 +28,9 @@ export default async function FragorSida({
 
       {!fragor?.length ? (
         <div className="kort p-6 text-center text-blck-mjuk">
-          <p aria-hidden="true" className="mb-2 text-3xl">
-            💬
-          </p>
+          <span className="symbol mx-auto mb-3 h-12 w-12">
+            <Ikon namn="prat" storlek={22} />
+          </span>
           <p>Inga frågor ännu.</p>
         </div>
       ) : (

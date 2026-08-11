@@ -1,6 +1,7 @@
 import { skapaServerKlient } from "@/lib/supabase/server";
 import { laddaUppDokument, raderaDokument } from "@/lib/actions";
 import { DOKUMENT_TYPER, dokumentEtikett, type Dokument, type Valp } from "@/lib/typer";
+import Ikon from "@/components/ikon";
 
 export const metadata = { title: "Dokument — Din bästa vän" };
 
@@ -37,9 +38,9 @@ export default async function DokumentSida({
     <div className="flex flex-col gap-6">
       {!alla.length ? (
         <div className="kort p-6 text-center text-blck-mjuk">
-          <p aria-hidden="true" className="mb-2 text-3xl">
-            📄
-          </p>
+          <span className="symbol mx-auto mb-3 h-12 w-12">
+            <Ikon namn="dokument" storlek={22} />
+          </span>
           <p>
             Inga dokument ännu. Registreringsbevis, besiktningsintyg,
             vaccinationsintyg och köpeavtal — allt samlat här är guld värt för

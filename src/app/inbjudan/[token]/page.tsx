@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { skapaServerKlient } from "@/lib/supabase/server";
 import { anslutValp } from "@/lib/actions";
+import Ikon from "@/components/ikon";
 
 export const metadata = { title: "Inbjudan — Din bästa vän" };
 
@@ -24,9 +25,9 @@ export default async function InbjudanSida({
   if (!info) {
     return (
       <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col justify-center px-5 py-10 text-center">
-        <p aria-hidden="true" className="mb-3 text-5xl">
-          🐾
-        </p>
+        <span className="symbol mx-auto mb-4 h-16 w-16">
+          <Ikon namn="tass" storlek={30} />
+        </span>
         <h1 className="text-3xl">Hittar inte inbjudan</h1>
         <p className="mt-3 text-blck-mjuk">
           Länken verkar inte stämma. Dubbelkolla med din uppfödare att du fått
@@ -45,9 +46,9 @@ export default async function InbjudanSida({
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col justify-center px-5 py-10">
       <div className="text-center">
-        <p aria-hidden="true" className="mb-3 text-6xl">
-          🎁
-        </p>
+        <span className="symbol mx-auto mb-5 h-20 w-20">
+          <Ikon namn="gava" storlek={36} />
+        </span>
         <h1 className="text-3xl">
           {info.valp_namn} väntar på dig!
         </h1>

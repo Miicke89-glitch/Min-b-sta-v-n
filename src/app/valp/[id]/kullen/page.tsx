@@ -3,6 +3,7 @@ import { skapaServerKlient } from "@/lib/supabase/server";
 import { skickaInlagg } from "@/lib/actions";
 import { formateraTidpunkt } from "@/lib/alder";
 import type { Kull, Kullinlagg, Valp } from "@/lib/typer";
+import Ikon from "@/components/ikon";
 
 export const metadata = { title: "Kullen — Din bästa vän" };
 
@@ -67,10 +68,16 @@ export default async function KullenSida({
                   kamrat.id === id ? "border-tass" : ""
                 }`}
               >
-                <p aria-hidden="true" className="text-3xl">
-                  {kamrat.kon === "tik" ? "🐕" : "🐶"}
-                </p>
-                <p className="mt-1 font-semibold">
+                <span
+                  className={`symbol mx-auto h-12 w-12 ${
+                    kamrat.kon === "tik"
+                      ? "bg-none bg-ang-ljus text-ang"
+                      : ""
+                  }`}
+                >
+                  <Ikon namn="tass" storlek={22} />
+                </span>
+                <p className="mt-1.5 font-semibold">
                   {kamrat.namn}
                   {kamrat.id === id && (
                     <span className="text-blck-mjuk"> (din!)</span>

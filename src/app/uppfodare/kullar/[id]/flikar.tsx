@@ -23,10 +23,10 @@ export default function KullFlikar({ kullId }: { kullId: string }) {
               <Link
                 href={flik.href}
                 aria-current={aktiv ? "page" : undefined}
-                className={`inline-block whitespace-nowrap rounded-full px-4 py-2 text-sm font-semibold ${
+                className={`inline-block whitespace-nowrap rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
                   aktiv
-                    ? "bg-tass text-white"
-                    : "border border-linje bg-kort text-blck-mjuk"
+                    ? "bg-blck text-white"
+                    : "border border-linje bg-kort text-blck-mjuk hover:text-blck"
                 }`}
               >
                 {flik.etikett}
