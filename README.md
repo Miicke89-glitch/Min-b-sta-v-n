@@ -14,6 +14,29 @@ inte ett administrationssystem.
 Stack: Next.js (App Router) · TypeScript · Tailwind · Supabase · Vercel.
 Allt gränssnitt på svenska, mobil först.
 
+## Testa direkt — utan Supabase-konto
+
+Vill du bara klicka runt? Demoläget kör appen mot en inbyggd
+låtsasdatabas med färdig testdata (Kennel Solgläntan och labradorkullen
+med fyra valpar):
+
+```bash
+npm install
+npm run demo
+```
+
+Öppna sedan [http://localhost:3000](http://localhost:3000):
+
+| Adress | Vad |
+| --- | --- |
+| `http://localhost:3000` | Hemsidan (utloggad) |
+| `http://localhost:3000/demo/kopare` | Logga in som valpköpare (Familjen Lindqvist, äger Sixten) |
+| `http://localhost:3000/demo/uppfodare` | Logga in som uppfödare (Kennel Solgläntan) |
+| `http://localhost:3000/demo/ut` | Logga ut |
+
+Låtsasdatabasen ligger i minnet och tar inte emot skrivningar — formulär
+sparar alltså inte i demoläget. För riktig data, fortsätt nedan.
+
 ## Kom igång lokalt
 
 ### 1. Skapa ett Supabase-projekt
